@@ -33,3 +33,19 @@ code .
 9. 실행은 windowAPP.py
 ## 프로그램 실행 결과는
 ![캡처](https://github.com/jysung1122/aiModel/assets/56614779/5b564b3b-8782-468e-985a-b185f6611d10)
+
+## 모델을 바꾸고 싶다면
+1. myModels/yolo5s.pt 에 추가
+2. windowAPP.py 에서 경로 수정
+   ```
+   self.model = torch.hub.load("./yolov5", model="custom",
+                                    path="./myModels/yolov5s.pt", source="local")
+   ```
+3. windowAPP.py 에서 클래스 수정
+   ```
+   # class name을 갖고 있은 배열을 이용하기 
+   # COCO 클래스 이름
+   cls_names = [
+     ...
+   ]
+   ```
