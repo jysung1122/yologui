@@ -6,11 +6,11 @@ git clone 해당 레포 주소
 ```
 2. 새로운 개발환경 만들고
 ```
-conda create -n yologui2 python=3.9
+conda create -n yologui python=3.9
 ```
 3. 콘다 Activate 또는 vscode 에서 개발환경 연결해주고
 ```
-conda activate yologui2
+conda activate yologui
 ```
 4. 개발환경 Package 설치 하고
 ```
