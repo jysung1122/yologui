@@ -46,7 +46,8 @@ code .
    # class name을 갖고 있은 배열을 이용하기 
    # COCO 클래스 이름
    cls_names = [
-      ]
+      ...
+   ]
    ```
 
 ### PosixPath 에러 생성 시 
