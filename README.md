@@ -59,7 +59,7 @@ code .
   ```
 
 
-# + robotAPP 추가
+# + robotAPP.py 추가
 - 이 프로그램은 인식 결과에 따라서 휴머노이드 로봇에게 특정 행동을 하도록 한다.
 - tts를 이용해서 음성 출력을 하도록 하였다. stt는 반대로 음성을 인식하는것을 말함
 ![캡처](https://github.com/jysung1122/aiModel/assets/56614779/ee1b3745-940e-48bb-b49f-15ecad55d94e)
