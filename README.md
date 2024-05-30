@@ -46,6 +46,14 @@ code .
    # class name을 갖고 있은 배열을 이용하기 
    # COCO 클래스 이름
    cls_names = [
+
+### PosixPath 에러 생성 시 
+- 임포트문 밑으로 코드 추가
+  ```
+   import pathlib  # PosixPath 오류 해결
+   from pathlib import Path  # PosixPath 오류 해결
+   pathlib.PosixPath = pathlib.WindowsPath  # PosixPath 오류 해결
+  ```
      ...
    ]
    ```
